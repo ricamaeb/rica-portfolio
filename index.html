@@ -157,15 +157,17 @@
     }
     .tool-logo{
       position:relative;
-      display:flex;align-items:center;justify-content:center;
-      width:100%;aspect-ratio:1/1;
+      display:flex;align-items:center;justify-content:center;flex-direction:column;
+      min-height:132px;
       background:#fff;border:1px solid rgba(138,103,199,.20);
       border-radius:24px;
       box-shadow:0 10px 25px rgba(84,54,128,.06);
       transition:transform .18s ease, box-shadow .18s ease;
+      padding:18px 10px 12px;
+      gap:10px;
     }
     .tool-logo:hover{transform:translateY(-4px);box-shadow:0 14px 28px rgba(84,54,128,.12)}
-    .tool-logo img{width:58px;height:58px;object-fit:contain;display:block}
+    .tool-logo img{width:58px;height:58px;object-fit:contain;display:block}\n    .tool-name{font-size:11px;font-weight:750;text-align:center;color:#514b56;line-height:1.15}
 
     .contact{
       padding:54px 42px;background:var(--ink);color:white;
@@ -223,6 +225,7 @@
           <p class="hero-sub">I help busy founders and teams turn moving pieces into organized systems, polished execution, and work that actually gets finished.</p>
           <div class="hero-actions">
             <a class="btn primary" href="#experience">See my experience</a>
+            <a class="btn soft" href="https://canva.link/1j9fd9z8ruvmfp8" target="_blank" rel="noopener noreferrer">Portfolio</a>
             <a class="btn soft" href="mailto:ricamaebwork@gmail.com">Email me</a>
           </div>
         </div>
@@ -329,30 +332,102 @@
       <div class="section-kicker">05 · Toolkit</div>
       <h2>Platforms I work with</h2>
       <div class="tool-grid">
-<div class="tool-logo" title="Google Workspace" aria-label="Google Workspace"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHBhdGggZD0iTTE4IDIwaDEydjhIMTh6IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTM0IDIwaDEydjhIMzR6IiBmaWxsPSIjMzRBODUzIi8+PHBhdGggZD0iTTE4IDMyaDEydjEySDE4eiIgZmlsbD0iI0ZCQkMwNSIvPjxwYXRoIGQ9Ik0zNCAzMmgxMnYxMkgzNHoiIGZpbGw9IiNFQTQzMzUiLz48L3N2Zz4=" alt="Google Workspace logo"></div>
-<div class="tool-logo" title="Microsoft 365" aria-label="Microsoft 365"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMTQiIHk9IjE0IiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIGZpbGw9IiNGMjUwMjIiLz48cmVjdCB4PSIzNSIgeT0iMTQiIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgZmlsbD0iIzdGQkEwMCIvPjxyZWN0IHg9IjE0IiB5PSIzNSIgd2lkdGg9IjE1IiBoZWlnaHQ9IjE1IiBmaWxsPSIjMDBBNEVGIi8+PHJlY3QgeD0iMzUiIHk9IjM1IiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIGZpbGw9IiNGRkI5MDAiLz48L3N2Zz4=" alt="Microsoft 365 logo"></div>
-<div class="tool-logo" title="ClickUp" aria-label="ClickUp"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHBhdGggZD0iTTIxIDI2bDExLTkgMTEgOSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjN0I2OEVFIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xOSAzOGM0IDcgMTAgMTAgMTMgMTBzOS0zIDEzLTEwIiBmaWxsPSJub25lIiBzdHJva2U9IiNGRjVFQ0QiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+" alt="ClickUp logo"></div>
-<div class="tool-logo" title="Monday.com" aria-label="Monday.com"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMTMiIHk9IjE1IiB3aWR0aD0iMTAiIGhlaWdodD0iMjgiIHJ4PSI1IiBmaWxsPSIjRjYyQjU0IiB0cmFuc2Zvcm09InJvdGF0ZSgzNSAxOCAyOSkiLz48cmVjdCB4PSIyOSIgeT0iMTUiIHdpZHRoPSIxMCIgaGVpZ2h0PSIyOCIgcng9IjUiIGZpbGw9IiNGRkNCMDAiIHRyYW5zZm9ybT0icm90YXRlKDM1IDM0IDI5KSIvPjxyZWN0IHg9IjQ1IiB5PSIxNSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjI4IiByeD0iNSIgZmlsbD0iIzAwQ0E3MiIgdHJhbnNmb3JtPSJyb3RhdGUoMzUgNTAgMjkpIi8+PGNpcmNsZSBjeD0iNDgiIGN5PSI0NSIgcj0iNCIgZmlsbD0iIzAwQ0E3MiIvPjwvc3ZnPg==" alt="Monday.com logo"></div>
-<div class="tool-logo" title="Notion" aria-label="Notion"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMTQiIHk9IjEyIiB3aWR0aD0iMzYiIGhlaWdodD0iNDAiIHJ4PSIzIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjQiLz48cGF0aCBkPSJNMjMgMjFoOWwxMiAyMlYyMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=" alt="Notion logo"></div>
-<div class="tool-logo" title="Asana" aria-label="Asana"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMzIiIGN5PSIxOCIgcj0iOSIgZmlsbD0iI0YwNkE2QSIvPjxjaXJjbGUgY3g9IjIxIiBjeT0iMzkiIHI9IjkiIGZpbGw9IiNGMDZBNkEiLz48Y2lyY2xlIGN4PSI0MyIgY3k9IjM5IiByPSI5IiBmaWxsPSIjRjA2QTZBIi8+PC9zdmc+" alt="Asana logo"></div>
-<div class="tool-logo" title="Slack" aria-label="Slack"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMjciIHk9IjkiIHdpZHRoPSI4IiBoZWlnaHQ9IjIwIiByeD0iNCIgZmlsbD0iIzM2QzVGMCIvPjxyZWN0IHg9IjM1IiB5PSIyNyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHJ4PSI0IiBmaWxsPSIjMkVCNjdEIi8+PHJlY3QgeD0iMjkiIHk9IjM1IiB3aWR0aD0iOCIgaGVpZ2h0PSIyMCIgcng9IjQiIGZpbGw9IiNFQ0IyMkUiLz48cmVjdCB4PSI5IiB5PSIyOSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHJ4PSI0IiBmaWxsPSIjRTAxRTVBIi8+PGNpcmNsZSBjeD0iMTkiIGN5PSIxOSIgcj0iNCIgZmlsbD0iIzM2QzVGMCIvPjxjaXJjbGUgY3g9IjQ1IiBjeT0iMTkiIHI9IjQiIGZpbGw9IiMyRUI2N0QiLz48Y2lyY2xlIGN4PSI0NSIgY3k9IjQ1IiByPSI0IiBmaWxsPSIjRUNCMjJFIi8+PGNpcmNsZSBjeD0iMTkiIGN5PSI0NSIgcj0iNCIgZmlsbD0iI0UwMUU1QSIvPjwvc3ZnPg==" alt="Slack logo"></div>
-<div class="tool-logo" title="Zoom" aria-label="Zoom"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMTMiIHk9IjIwIiB3aWR0aD0iMjciIGhlaWdodD0iMjQiIHJ4PSI3IiBmaWxsPSIjMkQ4Q0ZGIi8+PHBhdGggZD0iTTQwIDI3bDExLTZ2MjJsLTExLTZ6IiBmaWxsPSIjMkQ4Q0ZGIi8+PC9zdmc+" alt="Zoom logo"></div>
-<div class="tool-logo" title="GoHighLevel" aria-label="GoHighLevel"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHBhdGggZD0iTTE1IDE4aDM0TDM3IDMwSDIzeiIgZmlsbD0iIzQyRDM5QiIvPjxwYXRoIGQ9Ik0xOSAzMmgyNkwzNCA0M0gyNnoiIGZpbGw9IiMyM0I5ODIiLz48cGF0aCBkPSJNMjQgNDZoMTZsLTggN3oiIGZpbGw9IiMxMjlFNkUiLz48L3N2Zz4=" alt="GoHighLevel logo"></div>
-<div class="tool-logo" title="Zapier" aria-label="Zapier"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PGcgc3Ryb2tlPSIjRkY0RjAwIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PHBhdGggZD0iTTMyIDEwdjE0Ii8+PHBhdGggZD0iTTMyIDQwdjE0Ii8+PHBhdGggZD0iTTEwIDMyaDE0Ii8+PHBhdGggZD0iTTQwIDMyaDE0Ii8+PHBhdGggZD0iTTE3IDE3bDEwIDEwIi8+PHBhdGggZD0iTTM3IDM3bDEwIDEwIi8+PHBhdGggZD0iTTQ3IDE3TDM3IDI3Ii8+PHBhdGggZD0iTTI3IDM3TDE3IDQ3Ii8+PC9nPjxjaXJjbGUgY3g9IjMyIiBjeT0iMzIiIHI9IjUiIGZpbGw9IiNGRjRGMDAiLz48L3N2Zz4=" alt="Zapier logo"></div>
-<div class="tool-logo" title="Canva" aria-label="Canva"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeDI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiMwMEM0Q0MiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM3RDJBRTgiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIyMiIgZmlsbD0idXJsKCNnKSIvPjxwYXRoIGQ9Ik00MyAyMmMtMy0zLTctNS0xMS01LTkgMC0xNiA3LTE2IDE1czcgMTUgMTYgMTVjNSAwIDktMiAxMi02IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==" alt="Canva logo"></div>
-<div class="tool-logo" title="Metricool" aria-label="Metricool"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMTIiIHk9IjE2IiB3aWR0aD0iNDAiIGhlaWdodD0iMzIiIHJ4PSIxMCIgZmlsbD0iIzZDNENFMyIvPjxwYXRoIGQ9Ik0yMCAzOVYyN2w4IDggOC04IDggMTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+" alt="Metricool logo"></div>
-<div class="tool-logo" title="CapCut" aria-label="CapCut"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHBhdGggZD0iTTE0IDE5aDM2TDM5IDMxbDExIDE0SDE0bDExLTE0eiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTggMThsMjggMjhNNDYgMThMMTggNDYiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=" alt="CapCut logo"></div>
-<div class="tool-logo" title="Adobe Premiere Pro" aria-label="Adobe Premiere Pro"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNDQiIGhlaWdodD0iNDQiIHJ4PSI4IiBmaWxsPSIjMDAwMDVCIi8+PHRleHQgeD0iMzIiIHk9IjQwIiBmb250LXNpemU9IjIzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5OUZGIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtd2VpZ2h0PSI3MDAiPlByPC90ZXh0Pjwvc3ZnPg==" alt="Adobe Premiere Pro logo"></div>
-<div class="tool-logo" title="Adobe After Effects" aria-label="Adobe After Effects"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNDQiIGhlaWdodD0iNDQiIHJ4PSI4IiBmaWxsPSIjMDAwMDVCIi8+PHRleHQgeD0iMzIiIHk9IjQwIiBmb250LXNpemU9IjIzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5OUZGIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtd2VpZ2h0PSI3MDAiPkFlPC90ZXh0Pjwvc3ZnPg==" alt="Adobe After Effects logo"></div>
-<div class="tool-logo" title="WordPress" aria-label="WordPress"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjEiIGZpbGw9IndoaXRlIiBzdHJva2U9IiMyMTc1OUIiIHN0cm9rZS13aWR0aD0iNCIvPjx0ZXh0IHg9IjMyIiB5PSI0MiIgZm9udC1zaXplPSIyOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzIxNzU5QiIgZm9udC1mYW1pbHk9Ikdlb3JnaWEiIGZvbnQtd2VpZ2h0PSI3MDAiPlc8L3RleHQ+PC9zdmc+" alt="WordPress logo"></div>
-<div class="tool-logo" title="Klaviyo" aria-label="Klaviyo"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iNDQiIGhlaWdodD0iNDQiIHJ4PSI5IiBmaWxsPSIjRkZFODAwIi8+PHBhdGggZD0iTTE5IDQwbDEzLTIwIDEzIDIwSDM1bC0zLTUtMyA1eiIgZmlsbD0iIzExMSIvPjwvc3ZnPg==" alt="Klaviyo logo"></div>
-<div class="tool-logo" title="Mailchimp" aria-label="Mailchimp"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjIiIGZpbGw9IiNGRkUwMUIiLz48cGF0aCBkPSJNMjIgMzhjNCA1IDE2IDUgMjAtMU0yMyAyN2MyLTUgOC03IDEyLTQgNC0yIDkgMCAxMCA0IiBmaWxsPSJub25lIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMjciIGN5PSIzMSIgcj0iMiIvPjxjaXJjbGUgY3g9IjM5IiBjeT0iMzEiIHI9IjIiLz48L3N2Zz4=" alt="Mailchimp logo"></div>
-<div class="tool-logo" title="Zoho" aria-label="Zoho"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PGcgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj48cmVjdCB4PSI1IiB5PSIyMCIgd2lkdGg9IjE0IiBoZWlnaHQ9IjI0IiByeD0iMyIgZmlsbD0iI0U0MjUyNyIvPjx0ZXh0IHg9IjEyIiB5PSIzNiIgZmlsbD0id2hpdGUiPlo8L3RleHQ+PHJlY3QgeD0iMTkiIHk9IjE3IiB3aWR0aD0iMTQiIGhlaWdodD0iMjciIHJ4PSIzIiBmaWxsPSIjMkI3Q0QzIi8+PHRleHQgeD0iMjYiIHk9IjM1IiBmaWxsPSJ3aGl0ZSI+TzwvdGV4dD48cmVjdCB4PSIzMyIgeT0iMjAiIHdpZHRoPSIxNCIgaGVpZ2h0PSIyNCIgcng9IjMiIGZpbGw9IiNGNUI4MDAiLz48dGV4dCB4PSI0MCIgeT0iMzYiIGZpbGw9IndoaXRlIj5IPC90ZXh0PjxyZWN0IHg9IjQ3IiB5PSIxNyIgd2lkdGg9IjEyIiBoZWlnaHQ9IjI3IiByeD0iMyIgZmlsbD0iIzJGQTg0RiIvPjx0ZXh0IHg9IjUzIiB5PSIzNSIgZmlsbD0id2hpdGUiPk88L3RleHQ+PC9nPjwvc3ZnPg==" alt="Zoho logo"></div>
-<div class="tool-logo" title="Travefy" aria-label="Travefy"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjIiIGZpbGw9IiMyRDdGRjkiLz48cGF0aCBkPSJNMTggMzBoMjhNMzIgMTh2MjgiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTIxIDIxbDIyIDIyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMiIG9wYWNpdHk9Ii42NSIvPjwvc3ZnPg==" alt="Travefy logo"></div>
-<div class="tool-logo" title="Google Flights" aria-label="Google Flights"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHBhdGggZD0iTTEzIDM1bDM4LTE3LTkgMTYtOCAxLTUgMTAtNSAyIDItMTJ6IiBmaWxsPSIjNDI4NUY0Ii8+PGNpcmNsZSBjeD0iNDciIGN5PSIxOCIgcj0iNCIgZmlsbD0iI0VBNDMzNSIvPjwvc3ZnPg==" alt="Google Flights logo"></div>
-<div class="tool-logo" title="Travelport" aria-label="Travelport"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjIiIGZpbGw9IiMxMTEiLz48cGF0aCBkPSJNMjAgMjVoMjRNMzIgMTl2MjYiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTIyIDM5bDIwLTE0IiBzdHJva2U9IiM3RUU2RDciIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+" alt="Travelport logo"></div>
-<div class="tool-logo" title="Dropbox" aria-label="Dropbox"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PGcgZmlsbD0iIzAwNjFGRiI+PHBhdGggZD0iTTE5IDE2bDEzIDgtMTMgOC0xMy04eiIvPjxwYXRoIGQ9Ik00NSAxNmwxMyA4LTEzIDgtMTMtOHoiLz48cGF0aCBkPSJNMTkgMzJsMTMgOC0xMyA4LTEzLTh6Ii8+PHBhdGggZD0iTTQ1IDMybDEzIDgtMTMgOC0xMy04eiIvPjxwYXRoIGQ9Ik0zMiA0MmwxMyA4LTEzIDgtMTMtOC0xMyA4LTEzLTggMTMtOCAxMyA4eiIgdHJhbnNmb3JtPSJzY2FsZSguNTUpIHRyYW5zbGF0ZSgyNiAzMykiLz48L2c+PC9zdmc+" alt="Dropbox logo"></div>
-<div class="tool-logo" title="Evernote" aria-label="Evernote"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IndoaXRlIi8+PHJlY3QgeD0iMTIiIHk9IjEyIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHJ4PSIxMiIgZmlsbD0iIzAwQTgyRCIvPjxwYXRoIGQ9Ik0yMiAzOFYyNGg5YzUgMCAxMCA0IDEwIDEwdjZNMjYgMjRsNC01IDUgNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48Y2lyY2xlIGN4PSIzOSIgY3k9IjMxIiByPSIyLjUiIGZpbGw9IndoaXRlIi8+PC9zdmc+" alt="Evernote logo"></div>
+<div class="tool-logo" title="Google Workspace" aria-label="Google Workspace">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxwYXRoIGQ9Ik0zMiAxMmEyMCAyMCAwIDEgMCAwIDQwYzExIDAgMTktNy43IDE5LTE4LjYgMC0xLjMtLjEtMi4yLS4zLTMuNEgzMnY4aDEwLjhjLS41IDIuNi0zLjEgNy41LTEwLjggNy41QTEzLjUgMTMuNSAwIDEgMSAzMiAxOGM0LjQgMCA3LjQgMS45IDkuMSAzLjVsNi4yLTZDNDMuMyAxMS44IDM4LjEgMTIgMzIgMTJ6IiBmaWxsPSIjNDI4NUY0Ii8+CjxwYXRoIGQ9Ik0xNC40IDIzLjdsNyA1LjFBMTMuNSAxMy41IDAgMCAxIDMyIDE4di02YTIwIDIwIDAgMCAwLTE3LjYgMTEuN3oiIGZpbGw9IiNFQTQzMzUiLz4KPHBhdGggZD0iTTMyIDUyYzUuOSAwIDEwLjktMS45IDE0LjYtNS4ybC02LjctNS4yYy0xLjggMS4yLTQuMiAyLTcuOSAyYTEzLjUgMTMuNSAwIDAgMS0xMi43LTkuMWwtNy4xIDUuNEEyMCAyMCAwIDAgMCAzMiA1MnoiIGZpbGw9IiMzNEE4NTMiLz4KPHBhdGggZD0iTTE5LjMgMzQuNWExMy44IDEzLjggMCAwIDEgMC05bC03LjEtNS40QTIwIDIwIDAgMCAwIDEyIDQweiIgZmlsbD0iI0ZCQkMwNSIvPjwvc3ZnPg==" alt="Google Workspace logo">
+          <span class="tool-name">Google Workspace</span>
+        </div>
+<div class="tool-logo" title="Microsoft 365" aria-label="Microsoft 365">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxyZWN0IHg9IjEwIiB5PSIxMCIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjRjI1MDIyIi8+PHJlY3QgeD0iMzQiIHk9IjEwIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbGw9IiM3RkJBMDAiLz4KPHJlY3QgeD0iMTAiIHk9IjM0IiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbGw9IiMwMEE0RUYiLz48cmVjdCB4PSIzNCIgeT0iMzQiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI0ZGQjkwMCIvPjwvc3ZnPg==" alt="Microsoft 365 logo">
+          <span class="tool-name">Microsoft 365</span>
+        </div>
+<div class="tool-logo" title="ClickUp" aria-label="ClickUp">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxwYXRoIGQ9Ik0xOCAyN0wzMiAxNmwxNCAxMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjN0I2OEVFIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTggMzljNC41IDcgMTAgMTAgMTQgMTBzOS41LTMgMTQtMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGNUVDRCIgc3Ryb2tlLXdpZHRoPSI3IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=" alt="ClickUp logo">
+          <span class="tool-name">ClickUp</span>
+        </div>
+<div class="tool-logo" title="Monday.com" aria-label="Monday.com">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxyZWN0IHg9IjEwIiB5PSIxNCIgd2lkdGg9IjExIiBoZWlnaHQ9IjM0IiByeD0iNiIgZmlsbD0iI0Y2MkI1NCIgdHJhbnNmb3JtPSJyb3RhdGUoMzUgMTUgMzEpIi8+CjxyZWN0IHg9IjI3IiB5PSIxNCIgd2lkdGg9IjExIiBoZWlnaHQ9IjM0IiByeD0iNiIgZmlsbD0iI0ZGQ0IwMCIgdHJhbnNmb3JtPSJyb3RhdGUoMzUgMzIgMzEpIi8+CjxyZWN0IHg9IjQ0IiB5PSIxNCIgd2lkdGg9IjExIiBoZWlnaHQ9IjM0IiByeD0iNiIgZmlsbD0iIzAwQ0E3MiIgdHJhbnNmb3JtPSJyb3RhdGUoMzUgNDkgMzEpIi8+PC9zdmc+" alt="Monday.com logo">
+          <span class="tool-name">Monday.com</span>
+        </div>
+<div class="tool-logo" title="Notion" aria-label="Notion">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxyZWN0IHg9IjExIiB5PSI5IiB3aWR0aD0iNDIiIGhlaWdodD0iNDYiIHJ4PSI0IiBmaWxsPSIjZmZmIiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iNCIvPgo8cGF0aCBkPSJNMjAgMThoMTBsMTUgMjZWMTgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+" alt="Notion logo">
+          <span class="tool-name">Notion</span>
+        </div>
+<div class="tool-logo" title="Asana" aria-label="Asana">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxjaXJjbGUgY3g9IjMyIiBjeT0iMTkiIHI9IjEwIiBmaWxsPSIjRjA2QTZBIi8+PGNpcmNsZSBjeD0iMjAiIGN5PSI0MSIgcj0iMTAiIGZpbGw9IiNGMDZBNkEiLz48Y2lyY2xlIGN4PSI0NCIgY3k9IjQxIiByPSIxMCIgZmlsbD0iI0YwNkE2QSIvPjwvc3ZnPg==" alt="Asana logo">
+          <span class="tool-name">Asana</span>
+        </div>
+<div class="tool-logo" title="Slack" aria-label="Slack">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxyZWN0IHg9IjI3IiB5PSI3IiB3aWR0aD0iOSIgaGVpZ2h0PSIyMyIgcng9IjQuNSIgZmlsbD0iIzM2QzVGMCIvPgo8cmVjdCB4PSIzNSIgeT0iMjgiIHdpZHRoPSIyMyIgaGVpZ2h0PSI5IiByeD0iNC41IiBmaWxsPSIjMkVCNjdEIi8+CjxyZWN0IHg9IjI4IiB5PSIzNSIgd2lkdGg9IjkiIGhlaWdodD0iMjMiIHJ4PSI0LjUiIGZpbGw9IiNFQ0IyMkUiLz4KPHJlY3QgeD0iNiIgeT0iMjciIHdpZHRoPSIyMyIgaGVpZ2h0PSI5IiByeD0iNC41IiBmaWxsPSIjRTAxRTVBIi8+CjxjaXJjbGUgY3g9IjE5IiBjeT0iMTkiIHI9IjQuNSIgZmlsbD0iIzM2QzVGMCIvPjxjaXJjbGUgY3g9IjQ1IiBjeT0iMTkiIHI9IjQuNSIgZmlsbD0iIzJFQjY3RCIvPgo8Y2lyY2xlIGN4PSI0NSIgY3k9IjQ1IiByPSI0LjUiIGZpbGw9IiNFQ0IyMkUiLz48Y2lyY2xlIGN4PSIxOSIgY3k9IjQ1IiByPSI0LjUiIGZpbGw9IiNFMDFFNUEiLz48L3N2Zz4=" alt="Slack logo">
+          <span class="tool-name">Slack</span>
+        </div>
+<div class="tool-logo" title="Zoom" aria-label="Zoom">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxyZWN0IHg9IjkiIHk9IjE5IiB3aWR0aD0iMzQiIGhlaWdodD0iMjciIHJ4PSI4IiBmaWxsPSIjMkQ4Q0ZGIi8+PHBhdGggZD0iTTQzIDI3bDEyLTd2MjVsLTEyLTd6IiBmaWxsPSIjMkQ4Q0ZGIi8+PC9zdmc+" alt="Zoom logo">
+          <span class="tool-name">Zoom</span>
+        </div>
+<div class="tool-logo" title="GoHighLevel" aria-label="GoHighLevel">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDAgNjQiPgo8cGF0aCBkPSJNMTAgMTdoMzRMMzIgMjlIMjB6IiBmaWxsPSIjNDJEMzlCIi8+PHBhdGggZD0iTTE1IDMxaDI2TDMwIDQySDIyeiIgZmlsbD0iIzIzQjk4MiIvPjxwYXRoIGQ9Ik0yMSA0NWgxNmwtOCA4eiIgZmlsbD0iIzEyOUU2RSIvPgo8dGV4dCB4PSI1MiIgeT0iMzkiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzExMSI+SElHSExFVkVMPC90ZXh0Pjwvc3ZnPg==" alt="GoHighLevel logo">
+          <span class="tool-name">GoHighLevel</span>
+        </div>
+<div class="tool-logo" title="Zapier" aria-label="Zapier">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxnIHN0cm9rZT0iI0ZGNEYwMCIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiPjxwYXRoIGQ9Ik0zMiA4djE3Ii8+PHBhdGggZD0iTTMyIDM5djE3Ii8+PHBhdGggZD0iTTggMzJoMTciLz48cGF0aCBkPSJNMzkgMzJoMTciLz48cGF0aCBkPSJNMTUgMTVsMTIgMTIiLz48cGF0aCBkPSJNMzcgMzdsMTIgMTIiLz48cGF0aCBkPSJNNDkgMTVMMzcgMjciLz48cGF0aCBkPSJNMjcgMzdMMTUgNDkiLz48L2c+PGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iNSIgZmlsbD0iI0ZGNEYwMCIvPjwvc3ZnPg==" alt="Zapier logo">
+          <span class="tool-name">Zapier</span>
+        </div>
+<div class="tool-logo" title="Canva" aria-label="Canva">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeDI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiMwMEM0Q0MiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM3RDJBRTgiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIyMyIgZmlsbD0idXJsKCNnKSIvPjxwYXRoIGQ9Ik00MiAyMmMtMy0zLTctNS0xMS01LTkgMC0xNiA3LTE2IDE1czcgMTUgMTYgMTVjNSAwIDktMiAxMi02IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==" alt="Canva logo">
+          <span class="tool-name">Canva</span>
+        </div>
+<div class="tool-logo" title="Metricool" aria-label="Metricool">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MCA2NCI+CjxyZWN0IHg9IjgiIHk9IjEzIiB3aWR0aD0iNDgiIGhlaWdodD0iMzgiIHJ4PSIxMiIgZmlsbD0iIzZDNENFMyIvPjxwYXRoIGQ9Ik0xNyA0MFYyN2w5IDkgOS05IDEwIDE0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8dGV4dCB4PSI2MyIgeT0iMzgiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzZDNENFMyI+TTwvdGV4dD48L3N2Zz4=" alt="Metricool logo">
+          <span class="tool-name">Metricool</span>
+        </div>
+<div class="tool-logo" title="CapCut" aria-label="CapCut">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CjxwYXRoIGQ9Ik0xMiAxOGg0MEw0MCAzMWwxMiAxNUgxMmwxMi0xNXoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTE3IDE4bDMwIDI5TTQ3IDE4TDE3IDQ3IiBzdHJva2U9IiMxMTEiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+" alt="CapCut logo">
+          <span class="tool-name">CapCut</span>
+        </div>
+<div class="tool-logo" title="Adobe Premiere Pro" aria-label="Adobe Premiere Pro">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3QgeD0iNyIgeT0iNyIgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiByeD0iMTAiIGZpbGw9IiMwMDAwNUIiLz48dGV4dCB4PSIzMiIgeT0iNDEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMyIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzk5OTlGRiI+UHI8L3RleHQ+PC9zdmc+" alt="Adobe Premiere Pro logo">
+          <span class="tool-name">Adobe Premiere Pro</span>
+        </div>
+<div class="tool-logo" title="Adobe After Effects" aria-label="Adobe After Effects">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3QgeD0iNyIgeT0iNyIgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiByeD0iMTAiIGZpbGw9IiMwMDAwNUIiLz48dGV4dCB4PSIzMiIgeT0iNDEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyMyIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzk5OTlGRiI+QWU8L3RleHQ+PC9zdmc+" alt="Adobe After Effects logo">
+          <span class="tool-name">Adobe After Effects</span>
+        </div>
+<div class="tool-logo" title="WordPress" aria-label="WordPress">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iIzIxNzU5QiIgc3Ryb2tlLXdpZHRoPSI0Ii8+PHRleHQgeD0iMzIiIHk9IjQyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iR2VvcmdpYSIgZm9udC1zaXplPSIyOSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzIxNzU5QiI+VzwvdGV4dD48L3N2Zz4=" alt="WordPress logo">
+          <span class="tool-name">WordPress</span>
+        </div>
+<div class="tool-logo" title="Klaviyo" aria-label="Klaviyo">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3QgeD0iNyIgeT0iNyIgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiByeD0iMTAiIGZpbGw9IiNGRkU4MDAiLz48cGF0aCBkPSJNMTggNDNsMTQtMjQgMTQgMjRIMzZsLTQtNy00IDd6IiBmaWxsPSIjMTExIi8+PC9zdmc+" alt="Klaviyo logo">
+          <span class="tool-name">Klaviyo</span>
+        </div>
+<div class="tool-logo" title="Mailchimp" aria-label="Mailchimp">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMjMiIGZpbGw9IiNGRkUwMUIiLz48cGF0aCBkPSJNMjAgMzhjNSA2IDE4IDYgMjMtMU0yMyAyNmMzLTUgMTAtNiAxNC0zIDQtMiA5IDAgMTEgNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMjciIGN5PSIzMSIgcj0iMi4zIi8+PGNpcmNsZSBjeD0iNDAiIGN5PSIzMSIgcj0iMi4zIi8+PC9zdmc+" alt="Mailchimp logo">
+          <span class="tool-name">Mailchimp</span>
+        </div>
+<div class="tool-logo" title="Zoho" aria-label="Zoho">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4OCA2NCI+PGcgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXdlaWdodD0iNzAwIiBmb250LXNpemU9IjE3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4KPHJlY3QgeD0iMiIgeT0iMjAiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyNSIgcng9IjQiIGZpbGw9IiNFNDI1MjciLz48dGV4dCB4PSIxMi41IiB5PSIzOCIgZmlsbD0id2hpdGUiPlo8L3RleHQ+CjxyZWN0IHg9IjIzIiB5PSIxNiIgd2lkdGg9IjIxIiBoZWlnaHQ9IjI5IiByeD0iNCIgZmlsbD0iIzJCN0NEMyIvPjx0ZXh0IHg9IjMzLjUiIHk9IjM3IiBmaWxsPSJ3aGl0ZSI+TzwvdGV4dD4KPHJlY3QgeD0iNDQiIHk9IjIwIiB3aWR0aD0iMjEiIGhlaWdodD0iMjUiIHJ4PSI0IiBmaWxsPSIjRjVCODAwIi8+PHRleHQgeD0iNTQuNSIgeT0iMzgiIGZpbGw9IndoaXRlIj5IPC90ZXh0Pgo8cmVjdCB4PSI2NSIgeT0iMTYiIHdpZHRoPSIyMSIgaGVpZ2h0PSIyOSIgcng9IjQiIGZpbGw9IiMyRkE4NEYiLz48dGV4dCB4PSI3NS41IiB5PSIzNyIgZmlsbD0id2hpdGUiPk88L3RleHQ+PC9nPjwvc3ZnPg==" alt="Zoho logo">
+          <span class="tool-name">Zoho</span>
+        </div>
+<div class="tool-logo" title="Travefy" aria-label="Travefy">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgNjQiPjxjaXJjbGUgY3g9IjI0IiBjeT0iMzIiIHI9IjIwIiBmaWxsPSIjMkQ3RkY5Ii8+PHBhdGggZD0iTTE0IDMxaDIwTTI0IDIxdjIyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjx0ZXh0IHg9IjUyIiB5PSIzOSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMkQ3RkY5Ij50cmF2ZWZ5PC90ZXh0Pjwvc3ZnPg==" alt="Travefy logo">
+          <span class="tool-name">Travefy</span>
+        </div>
+<div class="tool-logo" title="Google Flights" aria-label="Google Flights">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgNjQiPjxwYXRoIGQ9Ik0xMCAzNmw0MC0xOS05IDE4LTggMS01IDExLTYgMiAyLTE0eiIgZmlsbD0iIzQyODVGNCIvPjxjaXJjbGUgY3g9IjQ3IiBjeT0iMTgiIHI9IjQiIGZpbGw9IiNFQTQzMzUiLz48dGV4dCB4PSI1OCIgeT0iMzkiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzVGNjM2OCI+RmxpZ2h0czwvdGV4dD48L3N2Zz4=" alt="Google Flights logo">
+          <span class="tool-name">Google Flights</span>
+        </div>
+<div class="tool-logo" title="Travelport" aria-label="Travelport">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjUgNjQiPjxjaXJjbGUgY3g9IjIyIiBjeT0iMzIiIHI9IjIwIiBmaWxsPSIjMTExIi8+PHBhdGggZD0iTTE0IDI0aDE2TTIyIDE4djI4TTE1IDQybDE2LTE3IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjx0ZXh0IHg9IjUwIiB5PSIzOSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMTExIj50cmF2ZWxwb3J0PC90ZXh0Pjwvc3ZnPg==" alt="Travelport logo">
+          <span class="tool-name">Travelport</span>
+        </div>
+<div class="tool-logo" title="Dropbox" aria-label="Dropbox">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGcgZmlsbD0iIzAwNjFGRiI+PHBhdGggZD0iTTE5IDE1bDEzIDgtMTMgOC0xMy04eiIvPjxwYXRoIGQ9Ik00NSAxNWwxMyA4LTEzIDgtMTMtOHoiLz48cGF0aCBkPSJNMTkgMzFsMTMgOC0xMyA4LTEzLTh6Ii8+PHBhdGggZD0iTTQ1IDMxbDEzIDgtMTMgOC0xMy04eiIvPjwvZz48cGF0aCBkPSJNMTkgNDhsMTMgOCAxMy04LTEzLTh6IiBmaWxsPSIjMDA2MUZGIi8+PC9zdmc+" alt="Dropbox logo">
+          <span class="tool-name">Dropbox</span>
+        </div>
+<div class="tool-logo" title="Evernote" aria-label="Evernote">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3QgeD0iOCIgeT0iOCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTQiIGZpbGw9IiMwMEE4MkQiLz48cGF0aCBkPSJNMTkgMzlWMjRoMTBjNyAwIDEzIDUgMTMgMTJ2Nk0yNSAyNGw1LTYgNiA2IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjQwIiBjeT0iMzEiIHI9IjMiIGZpbGw9IndoaXRlIi8+PC9zdmc+" alt="Evernote logo">
+          <span class="tool-name">Evernote</span>
+        </div>
       </div>
     </section>
 
